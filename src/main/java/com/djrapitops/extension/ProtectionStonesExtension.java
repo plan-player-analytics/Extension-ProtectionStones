@@ -93,7 +93,7 @@ public class ProtectionStonesExtension implements DataExtension {
         for (PSRegion region : regions) {
             regionTable.addRow(
                     region.getName(),
-                    region.getProtectBlock().getType().name(),
+                    region.getType(),
                     region.getTaxRate()
             );
         }
